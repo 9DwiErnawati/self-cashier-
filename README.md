@@ -73,7 +73,7 @@ Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
 
 Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan,maka Customer menggunakan method delete_item() untuk menghapus item. Item yang ingin dihapuskan adalah Pasta Gigi.
 
-**Output**
+*Output:*
 
 <p>
 <img align="center" src="img/test2.PNG" width="300" />
@@ -85,7 +85,7 @@ Ternyata setelah dipikir - pikir Customer salah memasukkan item yang ingin dibel
 
 Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method reset transaction() untuk menghapus semua item yang sudah ditambahkan.
 
-**Output**
+*Output:*
 
 <p>
 <img align="center" src="img/test3.PNG" width="300" />
@@ -96,7 +96,7 @@ Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method reset 
 
 Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total price (). Sebelum mengeluarkan output total belanja akan menampilkan item - item yang dibeli.
 
-**Output**
+*Output:*
 
 <p>
 <img align="center" src="img/test4.PNG" width="300" />

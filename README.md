@@ -26,7 +26,7 @@ Python
 
 ## Flowchart  
  <p>
-<img align="center" src="img/flowchart.png" width="300" />
+<img align="center" src="img/flowchart.png" width="500" />
 </p>
 
 ## Fungsi 

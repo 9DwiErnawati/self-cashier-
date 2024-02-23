@@ -32,25 +32,24 @@ Membuat sebuah program kasir self-service menggunakan Python.
 </p>
 
 ## Fungsi 
-1.  Class: Transaction
-    - Dibuat suatu class yang diberi nama Transaction yang digunakan sebagai  wadah untuk menghimpun data dan fungsi yang kemudian menghasilkan objek.
-2.  Method: __init__
+
+1.  Method: __init__
     - Dibuat ini digunakan untuk menyimpan data item belanjaan ke dalam bentuk dictionary.
-3.  Method: add_item
+2.  Method: add_item
     - Method ini digunakan untuk menambahkan data belanjaan. Dengan tiga parameter yaitu nama, jumlah dan harga.
-4.  Method: update_item_name
+3.  Method: update_item_name
     - Method ini digunakan untuk mengganti nama item belanjaan jika terjadi  kesalahan dalam memasukkan nama item.
-5.  Method: update_item_qty
+4.  Method: update_item_qty
     - Method ini digunakan untuk mengubah jumlah item dari suatu item belanjaan.
-6.  Method: update_item_price
+5.  Method: update_item_price
     - Method ini digunakan untuk untuk mengubah suatu harga dari item belanjaan.
-7.  Method: delete_item
+6.  Method: delete_item
     - Method ini berguna untuk menghapus salah satu item belanjaan.
-8.  Method: reset_transaction
+7.  Method: reset_transaction
     - Method ini berguna untuk menghapus seluruh item pada data belanjaan.
-9.  Method: check_order
+8.  Method: check_order
     - Method ini digunakan untuk mengecek daftar barang belanjaan yang sudah input, memastikan bahwa itemnya sudah sesuai yang diinginkan.
-10. Method: total_price
+9. Method: total_price
     - Method digunakan untuk menghitung harga total dari semua item belanjaan yang sudah diinput.
 
 ## Test Case

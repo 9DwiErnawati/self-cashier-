@@ -11,7 +11,9 @@ Setelah melakukan riset, Andi ternyata membutuhkan Programmer untuk membuatkan f
 Membuat sebuah program kasir self-service menggunakan Python.
 
 ## Tools
-Python, Google Collab, draft.io. 
+- Bahasa pemrograman menggunakan Python.
+- Media membuat program menggunakan Google Collab.
+- Media membuat flowchart menggunakan draft.io. 
 
 ## Requirements 
 - Membuat Class Transaction

@@ -55,7 +55,7 @@ Python
 
 ### Test 1
 
-Customer ingin menambahkan dua item baru menggunakan method add_item (). Item yang ditambahkan adalah sebagai berikut:
+Customer ingin menambahkan dua item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
 
 Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
 
@@ -73,7 +73,7 @@ Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
 
 Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan,maka Customer menggunakan method delete_item() untuk menghapus item. Item yang ingin dihapuskan adalah Pasta Gigi.
 
-*Output:*
+**Output**
 
 <p>
 <img align="center" src="img/test2.PNG" width="300" />
@@ -83,9 +83,9 @@ Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditamb
 
 Ternyata setelah dipikir - pikir Customer salah memasukkan item yang ingin dibelanjakan!
 
-Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method reset transaction() untuk menghapus semua item yang sudah ditambahkan.
+Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan.
 
-*Output:*
+**Output**
 
 <p>
 <img align="center" src="img/test3.PNG" width="300" />
@@ -94,9 +94,9 @@ Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method reset 
 
 ### Test 4
 
-Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total price (). Sebelum mengeluarkan output total belanja akan menampilkan item - item yang dibeli.
+Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum mengeluarkan output total belanja akan menampilkan item - item yang dibeli.
 
-*Output:*
+**Output**
 
 <p>
 <img align="center" src="img/test4.PNG" width="300" />
@@ -105,4 +105,4 @@ Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus di
 
 ## Kesimpulan
 
-Program ini sudah berjalan dengan baik, tetapi diperlukan pengembangan berkelanjutan untuk peningkatan program agar meberikan kesan baik kepada pengguna.
+Program ini sudah berjalan dengan baik, tetapi diperlukan pengembangan berkelanjutan untuk peningkatan program agar memberikan kesan baik kepada pengguna.

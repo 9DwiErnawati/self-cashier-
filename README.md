@@ -64,7 +64,7 @@ Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
 *Output:*
 
  <p>
-<img align="center" src="img/test1.png" width="300" />
+<img align="center" src="img/test1.PNG" width="300" />
 
 </p>
 
@@ -76,7 +76,7 @@ Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditamb
 **Output**
 
 <p>
-<img align="center" src="img/test2.png" width="300" />
+<img align="center" src="img/test2.PNG" width="300" />
 </p>
 
 ### Test 3
@@ -88,7 +88,7 @@ Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method reset 
 **Output**
 
 <p>
-<img align="center" src="img/test3.png" width="300" />
+<img align="center" src="img/test3.PNG" width="300" />
 </p>
 
 
@@ -99,7 +99,7 @@ Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus di
 **Output**
 
 <p>
-<img align="center" src="img/test4.png" width="300" />
+<img align="center" src="img/test4.PNG" width="300" />
 </p>
 
 

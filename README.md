@@ -28,7 +28,7 @@ Membuat sebuah program kasir self-service menggunakan Python.
 
 ## Flowchart  
  <p>
-<img align="center" src="img/flowchart.png" width="550" />
+
 </p>
 
 ## Fungsi 

@@ -13,7 +13,7 @@ Membuat sebuah program kasir self-service menggunakan Python.
 ## Tools
 - Bahasa pemrograman menggunakan Python.
 - Media membuat program menggunakan Google Collab.
-- Media membuat flowchart menggunakan draft.io. 
+- Media membuat flowchart menggunakan diagrams.net. 
 
 ## Requirements 
 - Membuat Class Transaction
@@ -28,7 +28,7 @@ Membuat sebuah program kasir self-service menggunakan Python.
 
 ## Flowchart  
  <p>
-
+<img align="center" src="img/flowchart.png" width="300" />
 </p>
 
 ## Fungsi 

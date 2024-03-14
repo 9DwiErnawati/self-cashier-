@@ -1,0 +1,109 @@
+# Final Project Python: Self-Cashier
+
+
+
+## Background Masalah
+Andi pemilik Supermarket besar. Ia memiliki rencana untuk melakukan perbaikan proses bisnis dengan membuat sistem kasir yang self-service di supermarket miliknya agar customer bisa langsung memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dan fitur yang lain. Ini juga untuk memudahkan customer yang tidak berada di kota tersebut bisa membeli barang dari supermarket tersebut.
+
+Setelah melakukan riset, Andi ternyata membutuhkan Programmer untuk membuatkan fitur-fitur tersebut agar sistem kasir self service di supermarket itu bisa berjalan dengan lancar.
+
+## Objektif
+Membuat sebuah program kasir self-service menggunakan Python.
+
+## Tools
+- Bahasa pemrograman menggunakan Python.
+- Media membuat program menggunakan Google Collab.
+- Media membuat flowchart menggunakan draft.io. 
+
+## Requirements 
+- Membuat Class Transaction
+- Membuat add item.
+- Dapat melakukan update nama item.
+- Dapat melakukan update jumlah item.
+- Dapat melakukan update harga item.
+- Dapat melakukan delete item.
+- Dapat melakukan reset transaksi.
+- Dapat melakukan cek order.
+- Menghitung total harga.
+
+## Flowchart  
+ <p>
+
+</p>
+
+## Fungsi 
+
+1.  Method: __init__
+    - Dibuat ini digunakan untuk menyimpan data item belanjaan ke dalam bentuk dictionary.
+2.  Method: add_item
+    - Method ini digunakan untuk menambahkan data belanjaan. Dengan tiga parameter yaitu nama, jumlah dan harga.
+3.  Method: update_item_name
+    - Method ini digunakan untuk mengganti nama item belanjaan jika terjadi  kesalahan dalam memasukkan nama item.
+4.  Method: update_item_qty
+    - Method ini digunakan untuk mengubah jumlah item dari suatu item belanjaan.
+5.  Method: update_item_price
+    - Method ini digunakan untuk untuk mengubah suatu harga dari item belanjaan.
+6.  Method: delete_item
+    - Method ini berguna untuk menghapus salah satu item belanjaan.
+7.  Method: reset_transaction
+    - Method ini berguna untuk menghapus seluruh item pada data belanjaan.
+8.  Method: check_order
+    - Method ini digunakan untuk mengecek daftar barang belanjaan yang sudah input, memastikan bahwa itemnya sudah sesuai yang diinginkan.
+9. Method: total_price
+    - Method digunakan untuk menghitung harga total dari semua item belanjaan yang sudah diinput.
+
+## Test Case
+
+### Test 1
+
+Customer ingin menambahkan dua item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
+
+Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
+
+Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
+
+*Output:*
+
+ <p>
+<img align="center" src="img/test1.PNG" width="300" />
+
+</p>
+
+
+### Test 2
+
+Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan,maka Customer menggunakan method delete_item() untuk menghapus item. Item yang ingin dihapuskan adalah Pasta Gigi.
+
+**Output**
+
+<p>
+<img align="center" src="img/test2.PNG" width="300" />
+</p>
+
+### Test 3
+
+Ternyata setelah dipikir - pikir Customer salah memasukkan item yang ingin dibelanjakan!
+
+Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan.
+
+**Output**
+
+<p>
+<img align="center" src="img/test3.PNG" width="300" />
+</p>
+
+
+### Test 4
+
+Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum mengeluarkan output total belanja akan menampilkan item - item yang dibeli.
+
+**Output**
+
+<p>
+<img align="center" src="img/test4.PNG" width="300" />
+</p>
+
+
+## Kesimpulan
+
+Program ini sudah berjalan dengan baik, tetapi diperlukan pengembangan berkelanjutan untuk peningkatan program agar memberikan kesan baik kepada pengguna.
